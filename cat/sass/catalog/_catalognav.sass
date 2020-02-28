@@ -1,0 +1,33 @@
+.navbar
+ &-block
+  &_catalog
+   margin-top: 54px
+ &-list
+  &__href
+   text-decoration: none
+   position: relative
+   &:hover
+    transform: scaleX(0)
+    &::after
+      content: ''
+      position: absolute
+      bottom: -5px
+      right: 0
+      width: 100%
+      height: 2px
+      transform: scaleX(1)
+      background-color: #68b738
+      transition: 0.5s
+   &_shop
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: -5px
+      right: 0
+      width: 100%
+      height: 2px
+      background-color: #68b738
+   &_catalog
+    color: #000
+    

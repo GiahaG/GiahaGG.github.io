@@ -1,0 +1,44 @@
+.navbar
+ &-block
+  display: flex
+  justify-content: space-between
+  align-items: center
+ &-list
+  display: flex
+  &__item
+   list-style: none
+   font-size: 20px
+   font-weight: 400
+   line-height: 24.86px
+   text-transform: uppercase
+   margin-left: 35px
+  &__nav
+   text-decoration: none
+   color: #fff
+   position: relative
+   &_general
+    &::after
+     content: ''
+     position: absolute
+     bottom: -5px
+     right: 0
+     width: 100%
+     height: 2px
+     background-color: #fff
+   &:hover
+    &::after
+      content: ''
+      position: absolute
+      bottom: -5px
+      right: 0
+      width: 100%
+      height: 2px
+      background-color: #fff
+
+@media(max-width: 360px)
+  .navbar
+    &-list
+     &__item
+      display: none
+
+

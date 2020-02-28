@@ -1,0 +1,67 @@
+.extra
+ &__title
+  margin-top: 73px
+  padding-left: 10px
+  padding-right: 10px
+  width: 230px
+  color: #111111
+  font-size: 36px
+  font-weight: 400
+  line-height: 36px
+  background-color: #fff
+  position: relative
+  margin-bottom: 103px
+  &::before
+   content: ''
+   width: 1904px
+   height: 3px
+   background-color: #68b738
+   position: absolute
+   top: 22px
+   left: -338px
+   z-index: -1
+ &__button
+  margin-top: 61px
+  width: 568px
+  height: 52px 
+  background-color: #68b738
+  border: none
+  color: #ffffff
+  font-family: Oswald
+  font-size: 20px
+  font-weight: 400
+  line-height: 20px
+  text-transform: uppercase
+  outline: none
+  margin-bottom: 80px
+  &:hover
+   cursor: pointer
+ &__descr
+  margin-left: 82px
+  color: #444444
+  font-size: 16px
+  font-weight: 400
+  line-height: 16px
+.form
+ &-group
+  display: flex
+  justify-content: space-between
+input[type="checkbox"]
+  display: none
+  &:checked + label::before
+    background: url('/img/extra/tick.svg') no-repeat center
+.checkbox
+  display: none
+  &-label
+    display: flex
+    align-items: center
+    margin-right: 42px
+    margin-bottom: 25px
+    &:hover
+      cursor: pointer
+    &::before
+      content: ''
+      width: 40px
+      height: 40px
+      border: 1px solid #dddddd
+      margin-right: 20px

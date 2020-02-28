@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css/style.css">
+ <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap&subset=cyrillic"
+  rel="stylesheet">
+ <title>Подбор программы</title>
+</head>
+
+<body>
+
+ <navbar class="navbar">
+  <div class="container">
+   <div class="navbar-block navbar-block_catalog">
+
+    <a href="/index.html" class="navbar-logo">
+      <img class="" src="/img/header/logo-desktop.svg.png" alt="">
+    </a>
+    <ul class="navbar-list">
+     <li class="navbar-list__item">
+      <a href="/index.html" class="navbar-list__href navbar-list__href_program">Главная</a>
+     </li>
+     <li class="navbar-list__item">
+      <a href="/catalog.html" class="navbar-list__href navbar-list__href_program ">Каталог продукции</a>
+     </li>
+     <li class="navbar-list__item">
+      <a href="/program.html" class="navbar-list__href navbar-list__href_program navbar-list__href_active">Подбор
+       программы</a>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </navbar>
+
+
+
+
+<section class="program">
+ <div class="container">
+  <h4 class="program__title">Подбор программы</h4>
+   <span class="program__question">Заполните анкету и мы подберем программу питания для вашего кота</span>
+
+   <div class="program-block">
+
+   <div class="program-group">
+    <div class="program-group__row">
+     <label for="" class="program-group__label">Имя: *</label>
+     <input type="text" class="program-group__input program-group__input_name" placeholder="Введите имя Вашего кота">
+    </div>
+
+     <div class="program-group__row">
+      <label for="" class="program-group__label">Вес (кг): *</label>
+      <input type="text" class="program-group__input program-group__input_weight" placeholder="Введите вес Вашего кота">
+     </div>
+
+      <div class="program-group__row">
+       <label for="" class="program-group__label">Возраст (лет): *</label>
+       <input type="text" class="program-group__input program-group__input_age" placeholder="Введите возраст Вашего кота">
+      </div>
+   </div>
+
+   <div class="program-checkbox program__checkbox">
+
+<div class="program-checkbox__group">
+    <div class="program-checkbox__row">
+       <label class="program-checkbox__label" name="text1">
+        <input class="radio" type="radio" name="text1">
+        <span class="fake"></span>
+       </label>
+       <span class="program-checkbox__text">Похудение</span>
+     </div>
+
+          <div class="program-checkbox__row">
+           <label class="program-checkbox__label" name="text1">
+            <input class="radio" type="radio" name="text1">
+            <span class="fake"></span>
+           </label>
+           <span class="program-checkbox__text">Набор массы</span>
+          </div>
+
+        <div class="program-checkbox__row">
+         <label class="program-checkbox__label" name="text1">
+          <input class="radio" type="radio" name="text1">
+          <span class="fake"></span>
+         </label>
+         <span class="program-checkbox__text">Не знаю (Нужен ваш совет)</span>
+        </div>
+</div>
+
+   </div>
+  </div>
+ </div>
+</section>
+
+
+<section class="contacts">
+ <div class="container">
+   <h4 class="contacts__title"> Контактные данные (владельца кота)</h4>
+
+   <div class="contacts-block">
+
+  <div class="contacts-mail">
+<label for="" class="contacts-mail__email">E-mail:*</label>
+<input type="text" class="contacts-mail__input" placeholder="Введите ваш E-mail"как >
+  </div>
+
+  <div class="contacts-phone">
+   <label for="" class="contacts-phone__phone">Телефон:*</label>
+   <input type="text" class="contacts-phone__input" placeholder="Введите ваш номер телефона">
+  </div>
+  </div>
+ </div>
+</section> 
+
+<section class="comment">
+ <div class="container">
+  <h4 class="comment__title">Комментарий</h4>
+  <textarea name="comment" id="" cols="30" rows="10" class="comment__form"
+   placeholder="Расскажите обо всех повадках кота"></textarea>
+ </div>
+</section>
+
+<section class="extra">
+ <div class="container">
+  
+<h4 class="extra__title">Дополнительно</h4>
+
+<div class="extra-block">
+
+<div class="form-group">
+
+ <div class="form__checkbox">
+  <input class="checkbox" type="checkbox" id="sugar">
+  <label class="checkbox-label" for="sugar">
+   Сахарозаменитель</label>
+ </div>
+
+ <div class="form__checkbox">
+  <input class="checkbox" type="checkbox" id="water">
+  <label class="checkbox-label" for="water">
+   Питьевая вода</label>
+ </div>
+
+ <div class="form__checkbox">
+  <input class="checkbox" type="checkbox" id="milk">
+  <label class="checkbox-label" for="milk">
+   Молоко</label>
+ </div>
+
+ <div class="form__checkbox">
+  <input class="checkbox" type="checkbox" id="vitamins">
+  <label class="checkbox-label" for="vitamins">
+   Витамины</label>
+ </div>
+
+</div>
+
+<button class="extra__button">Оставить заявку</button>
+<span class="extra__descr">*- Обязательные поля</span>
+</div>
+
+ </div>
+</section>
+
+ <section class="map">
+  <div class="map-block">
+   <script type="text/javascript" charset="utf-8" async
+    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A83d2c0fc6a49a472d85d10dab03d53ba665daa49a45a74f5469c0958f73c0318&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false">
+   </script>
+   <div class="container">
+    <div class="map-form">
+
+     <div class="map-form__invite">
+      <span class="map-form__text">Приглашаем к сотрудничеству дилеров!</span>
+     </div>
+
+     <div class="map-form__address">
+      <span class="map-form__street"> ул.Большая Конюшенная, д.19/8</span>
+      <span class="map-form__city"> Санкт-Петербург</span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <footer class="footer">
+  <div class="container">
+   <div class="footer-items">
+    <div class="footer-logo">
+     <img src="/img/footer/footer-logo.png" alt="" class="footer-logo__image">
+    </div>
+    <div class="footer-social">
+     <a href="#" class="footer-social__href"><img src="/img/footer/vk.png" alt="" class="footer-social__vk"></a>
+     <a href="#" class="footer-social__href"><img src="/img/footer/insta.png" alt="" class="footer-social__insta"></a>
+     <a href="#" class="footer-social__href"><img src="/img/footer/fb.png" alt="" class="footer-social__fb"></a>
+    </div>
+   </div>
+  </div>
+ </footer>
+
+</body>
+
+</html>

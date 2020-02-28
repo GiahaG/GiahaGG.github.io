@@ -1,0 +1,98 @@
+.program
+ &__title
+  font-size: 60px
+  font-weight: 400
+  line-height: 60px
+  margin-top: 81px
+ &__question
+  display: block
+  width: 332px
+  font-size: 20px
+  font-weight: 400
+  line-height: 30px
+  text-transform: uppercase
+  margin-top: 53px
+ &-block
+  display: flex
+  justify-content: space-between
+  margin-top: 69px
+ &-group
+  margin-right: 80px
+  &__label
+   font-size: 20px
+   font-weight: 400
+   line-height: 20px
+   text-transform: uppercase
+   color: #222222
+   margin-right: 10px
+  &__input
+   padding-top: 10px
+   padding-bottom: 10px
+   padding-left: 20px
+   color: #444444
+   font-family: Oswald
+   font-size: 20px
+   font-weight: 400
+   line-height: 20px
+   text-transform: uppercase
+   &_name
+    width: 514px
+   &_weight
+    width: 487px
+    margin-top: 20px
+   &_age
+    width: 437px
+    margin-top: 20px
+ &__checkbox
+  width: 570px
+  border: 1px solid #cdcdcd
+  opacity: rgba(#cdcdcd, 0.2)
+ &-checkbox
+  &__group
+   padding-top: 25px
+   padding-left: 28px
+  &__text
+   font-size: 20px
+   font-weight: 400
+   line-height: 20px
+   color: #222222
+   text-transform: uppercase
+   margin-left: 20px
+  &__row
+   display: flex
+   align-items: center
+   margin-bottom: 13px
+  &__label
+.radio
+ display: none
+.fake
+ display: inline-block
+ width: 40px
+ height: 40px
+ border: 1px solid #cdcdcd
+ background-color: #fff
+ position: relative
+ border-radius: 50%
+ &:hover
+    cursor: pointer
+ &::before
+  content: ''
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  display: block
+  width: 18px
+  height: 18px
+  background-color: #68b738
+  opacity: 0
+  transition: 0.2s
+  border-radius: 50%
+.radio:checked + .fake::before
+ opacity: 1
+   
+
+
+
+
+

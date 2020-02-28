@@ -1,0 +1,104 @@
+.steps
+ &-block
+  display: flex
+  justify-content: space-between
+ &__title
+  margin-top: 76px
+  font-size: 60px
+  font-weight: 400
+  line-height: 60px
+ &-item
+  position: relative
+  &:after
+   content: '1'
+   font-size: 281px
+   position: absolute
+   z-index: -1
+   top: 25px
+   right: 0px
+   color: #f2f2f2
+   line-height: 281.07px
+  &__two
+   position: relative
+   &:after
+    content: '2'
+    font-size: 281px
+    position: absolute
+    z-index: -1
+    top: 25px
+    right: 0px
+    color: #f2f2f2
+    line-height: 281.07px
+  &__three
+   position: relative
+   &:after
+    content: '3'
+    font-size: 281px
+    position: absolute
+    z-index: -1
+    top: 25px
+    right: 0px
+    color: #f2f2f2
+    line-height: 281.07px
+  &__four
+   position: relative
+   &:after
+    content: '4'
+    font-size: 281px
+    position: absolute
+    z-index: -1
+    top: 25px
+    right: 0px
+    color: #f2f2f2
+    line-height: 281.07px
+  &__descr
+   display: block
+   font-family: 'Arial Regular', sans-serif
+   margin-top: 37px
+   width: 240px
+   color: #444444
+   font-size: 16px
+   font-weight: 400
+   line-height: 24px
+  &__image
+   margin-top: 63px
+ &-live
+  &__title
+   font-size: 60px
+   font-weight: 400
+   line-height: 60px
+   color: #111111
+   margin-top: 138px
+   margin-bottom: 66px
+@media screen and (max-width: 360px)
+  .container
+    width: 280px
+  .steps
+    &__title
+     font-size: 36px
+     font-weight: 400
+     line-height: 60px
+     margin-top: 30px
+    &-block
+     display: flex
+     flex-direction: column
+    &-item
+      display: flex
+      align-items: center
+      margin-top: 35px
+      &__descr
+        margin-top: 0px
+        font-size: 14px
+        font-weight: 400
+        line-height: 18px
+      &__image
+        margin-top: 0px
+        margin-right: 10px
+      &::after
+        display: none
+    &-live
+      &__title
+        font-size: 36px
+        font-weight: 400
+        line-height: 60px
+        margin-bottom: -60px

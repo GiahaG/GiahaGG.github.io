@@ -1,0 +1,78 @@
+.header
+ background: url('/img/header/bg.png') no-repeat 
+ background-position: right -5px
+ background-size: 50% 
+ padding-top: 54px
+ padding-bottom: 55px
+ &-block
+  display: flex
+  justify-content: space-around
+ &-logo
+  margin-top: 48px
+  transform: translateX(-171px)
+  &__image
+.functional
+ &-text
+  margin-left: 32px
+  &__title
+   margin-top: 113px
+   color: #111111
+   font-size: 60px
+   font-weight: 400
+   line-height: 60px
+   max-width: 450px
+  &__descr
+   margin-top: 33px
+   display: block
+   font-size: 20px
+   font-weight: 400
+   line-height: 20px
+   text-transform: uppercase
+  &__button
+   display: inline-block
+   text-align: center
+   font-size: 20px
+   line-height: 20px
+   text-transform: uppercase
+   text-decoration: none
+   color: #ffffff
+   padding: 15px 27px
+   margin-top: 53px
+   background-color: #68b738
+
+@media screen and (max-width: 360px)
+  .container
+    width: 280px
+  .header
+    background: url('/img/header/bg.png') no-repeat
+    background-size: 360px, contain
+    &-logo
+      &__image
+        display: none
+        width: 200px
+  .functional
+    &-text
+      text-align: center
+      padding-top: 0px 
+      margin-left: 0px
+      padding-right: 0px
+      &__title
+       color: #fff
+       font-size: 20px
+       font-size: 36px
+       font-weight: 400
+       line-height: 36px
+       margin-top: 29px
+       padding-right: 0px
+      &__descr
+        font-size: 14px
+        font-weight: 400
+        line-height: 14px
+        text-transform: uppercase
+        color: #fff
+      &__button
+        margin-top: 100px
+        width: 280px
+
+     
+
